@@ -1,0 +1,5 @@
+#summary A chart contrasting different hardware devices
+
+= Introduction =
+
+This page exists to document and catalog many different magnetic stripe reading and writing devices. It should include recorded prices, possible interface buses, read/write capabilities and other features.
