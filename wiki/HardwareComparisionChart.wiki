@@ -6,5 +6,6 @@ This page exists to document and catalog many different magnetic stripe reading 
 
 = Hardware comparison chart =
 
-||Model|| libmsr support || USB || Serial || Bus powered || External power || ISO read|| ISO write|| Raw read || Raw write || Track 1 || Track 2|| Track 3|| LED lights || Driver required || Specification || Average price || Misc notes ||
-||MSR-206|| Yes || No || Yes || No || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || No || Yes || $400-600USD || The gold standard ||
+||Model|| libmsr support || USB || Serial || Bus powered || External power || ISO read|| ISO write|| Raw read || Raw write || Hi-co || Lo-co || Track 1 || Track 2|| Track 3|| LED lights || Driver required || Specification || Average price || Misc notes ||
+||MSR-206|| Yes || No || Yes || No || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || No || Yes || $400-600USD || The gold standard ||
+||Makstripe|| No || Yes || No || Yes || No || Yes || Yes || Yes || Yes || No || Yes || Yes || Yes || Yes || No || Unknown || No || ~275 Euro || USB version ||
