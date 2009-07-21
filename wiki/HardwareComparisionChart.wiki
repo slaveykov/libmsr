@@ -3,3 +3,8 @@
 = Introduction =
 
 This page exists to document and catalog many different magnetic stripe reading and writing devices. It should include recorded prices, possible interface buses, read/write capabilities and other features.
+
+= Hardware comparison chart =
+
+||Model|| USB interface || Serial interface || Bus powered || External power required || ISO read|| ISO write|| Raw read || Raw write || Track 1 || Track 2|| Track 3|| LED status lights || Driver required || Documented specification || Average price || Misc notes ||
+||MSR-206|| No || Yes || No || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || Yes || No || Yes || $400-600USD || The gold standard ||
