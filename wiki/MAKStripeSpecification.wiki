@@ -6,4 +6,4 @@ The MAKStripe is hardware produced by the fine people at MAKInterface. The MAKSt
 
 = Specification =
 
-Currently, almost all of the specification details can be found in the MAKStripe header files; we will formally write a specification soon.
+Currently, almost all of the specification details can be found in the MAKStripe header files; we have also written a mostly complete specification that may be <a href="http://code.google.com/p/libmsr/source/browse/trunk/MAKStripe.specification">found in our subversion repository</a>.
