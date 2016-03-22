@@ -1,0 +1,13 @@
+# Introduction #
+
+This page exists to document and catalog many different magnetic stripe reading and writing devices. It should include recorded prices, possible interface buses, read/write capabilities and other features.
+
+# Hardware comparison chart #
+
+|Model| libmsr support | USB | Audio input | Serial | Bus powered | External power | ISO read| ISO write| Raw read | Raw write | Hi-co write | Lo-co write | Track 1 | Track 2| Track 3| LED lights | Driver required | Specification | Price | Misc notes |
+|:----|:---------------|:----|:------------|:-------|:------------|:---------------|:--------|:---------|:---------|:----------|:------------|:------------|:--------|:-------|:-------|:-----------|:----------------|:--------------|:------|:-----------|
+|MSR-206| Yes            | No  | No          | Yes    | No          | Yes            | Yes     | Yes      | Yes      | Yes       | Yes         | Yes         | Yes     | Yes    | Yes    | Yes        | No              | <a href='http://libmsr.googlecode.com/files/MSR206%20Programmer&#39;s%20Manual.pdf'>Yes</a> | $400 - 600USD | The gold standard |
+|MSR-505C| Yes            | Yes | No          | No     | Yes         | No             | Yes     | Yes      | Yes      | Yes       | Yes         | Yes         | Yes     | Yes    | Yes    | Yes        | Unknown         | <a href='http://libmsr.googlecode.com/files/MSR505C%20Programmer&#39;s%20Manual.pdf'>Yes</a>  | Unknown | Unconfirmed |
+|<a href='http://www.makinterface.de/index_e.php3?frompage=/makstusbe.php3'>Makstripe</a>| In progress    | Yes | No          | No     | Yes         | No             | Yes     | Yes      | Yes      | Yes       | No          | Yes         | Yes     | Yes    | Yes    | No         | Yes: CP210x USB to Serial | <a href='http://code.google.com/p/libmsr/wiki/MAKStripeSpecification'>in progress</a>| ~275 Euro | USB version |
+|Generic Audio input device | partial        | No  | Yes         | No     | Yes         | No             | Yes     | No       | Yes      | No        | No          | No          | Yes     | Yes    | Yes    | No         | No              | No            | $0.50 | Simple custom circuit required |
+|<a href='https://squareup.com/'>Square</a> | partial        | No  | Yes         | No     | Yes         | No             | Yes     | No       | Yes      | No        | No          | No          | Yes     | Yes    | Yes    | No         | No              | No            | Unknown | Private hardware beta |
